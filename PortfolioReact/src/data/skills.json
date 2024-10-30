@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Quiz",
+    "projectExample": "https://github.com/CharlesCatto/quizProject",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet illum quae sed qui, atque quos exercitationem excepturi, molestias laborum assumenda incidunt quam architecto sint corporis veritatis repellendus, inventore aperiam vitae?",
+    "avatar": "../public/ProjectsPics/quizProject.png"
+  },
+  {
+    "id": 2,
+    "name": "maVille",
+    "projectExample": "https://projectExample.com",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet illum quae sed qui, atque quos exercitationem excepturi, molestias laborum assumenda incidunt quam architecto sint corporis veritatis repellendus, inventore aperiam vitae?",
+    "avatar": "./public/ProjectsPics/maVille.png"
+  },
+  {
+    "id": 3,
+    "name": "Project3",
+    "projectExample": "https://projectExample.com",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet illum quae sed qui, atque quos exercitationem excepturi, molestias laborum assumenda incidunt quam architecto sint corporis veritatis repellendus, inventore aperiam vitae?",
+    "avatar": "../public/ProjectsPics/Project3.png"
+  },
+  {
+    "id": 4,
+    "name": "Project4",
+    "projectExample": "https://projectExample.com",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet illum quae sed qui, atque quos exercitationem excepturi, molestias laborum assumenda incidunt quam architecto sint corporis veritatis repellendus, inventore aperiam vitae?",
+    "avatar": "../public/ProjectsPics/Project4.png"
+  },
+  {
+    "id": 5,
+    "name": "Project5",
+    "projectExample": "https://projectExample.com",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet illum quae sed qui, atque quos exercitationem excepturi, molestias laborum assumenda incidunt quam architecto sint corporis veritatis repellendus, inventore aperiam vitae?",
+    "avatar": "../public/ProjectsPics/Project5.png"
+  }
+]

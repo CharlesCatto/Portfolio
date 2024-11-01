@@ -9,14 +9,13 @@ import NavBar from "./components/NavBar";
 function App() {
   return (
     <div>
-      <h2 id="topPage">??</h2>
+      {/* <h2 id="topPage">??</h2> */}
 
       <NavBar />
       <About />
-      <section>
-        <h2>Project</h2>
-      </section>
-      <main className="container">
+      <h2 className="about__heading section-heading">Projects</h2>
+
+      {/* <main className="container">
         {skills.map((skill) => (
           <Card
             name={skill.name}
@@ -26,7 +25,7 @@ function App() {
             key={skill.id}
           />
         ))}
-      </main>
+      </main> */}
     </div>
   );
 }

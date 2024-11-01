@@ -4,16 +4,18 @@ interface NavBarInterface {
 function NavBar({ machin }: NavBarInterface) {
   return (
     <section>
-      <h1>
-        Hello, I'm <span> Charles</span>.
-      </h1>
-      <h1>I'm a full stack web developer.</h1>
+      <div id="Hello">
+        <div className="Heading">
+          <h1>Hello, I'm Charles.</h1>
+          <h1>I'm a full stack web developer.</h1>
+        </div>
+      </div>
       <a href="!#">
         <img src="./public/logoSunglasses.png" alt="logo Portfolio" id="logo" />
       </a>
-      <div id="navBar">
+      <nav id="navBar">
         <div className="dropdown">
-          <div className="dropbtn">About me</div>
+          <div className="dropbtn">About</div>
           <div className="dropdown-content">
             <a href="!#">Hobbies</a>
             <a href="!#">Passions</a>
@@ -37,7 +39,7 @@ function NavBar({ machin }: NavBarInterface) {
             <a href="!#">Forbes</a>
           </div>
         </div>
-      </div>
+      </nav>
     </section>
   );
 }

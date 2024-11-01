@@ -7,14 +7,16 @@ interface CardInterface {
 
 function Card({ name, projectExample, avatar, description }: CardInterface) {
   return (
-    <section className="card">
-      <img id="avatarID" src={avatar} alt="avatar" />
-      <h2>{name}</h2>
-      <p>{description}</p>
-      <div className="links">
-        <a href={projectExample}>projectExample</a>
-      </div>
-    </section>
+    <div>
+      <section className="card">
+        <img id="avatarID" src={avatar} alt="avatar" />
+        <h2>{name}</h2>
+        <p>{description}</p>
+        <div className="links">
+          <a href={projectExample}>projectExample</a>
+        </div>
+      </section>
+    </div>
   );
 }
 

@@ -6,16 +6,16 @@ function About({ truc }: AboutInterface) {
   return (
     <section className="about">
       <h2 className="about__heading section-heading">About</h2>
-      <div className="aboutContent">
-        <div className="Profil">
+      <div className="about__content">
+        <div className="profile profile__fade-in">
           <div>
             <img
-              id="iconAvatar"
+              className="profile__picture"
               src="./public/avatarIcon.png"
               alt="iconAvatar"
             />
           </div>
-          <p id="profilP">
+          <p id="profileP">
             Fully committed to the philosophy of life-long learning, I’m a full
             stack developer with a deep passion for JavaScript, React and all
             things web development. The unique combination of creativity, logic,

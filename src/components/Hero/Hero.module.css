@@ -1,0 +1,46 @@
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	text-align: center;
+	color: whitesmoke;
+	padding: 20px;
+	position: relative;
+	z-index: 10;
+}
+
+.heroTitle {
+	font-size: 3rem;
+	margin: 0;
+	animation: fadeIn 2s ease-in-out;
+}
+
+.highlight {
+	font-size: 4rem;
+	font-weight: bold;
+	color: #007bff;
+	animation: bounce 2s infinite;
+}
+
+/* Animations */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes bounce {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+}

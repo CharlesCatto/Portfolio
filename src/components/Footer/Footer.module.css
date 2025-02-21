@@ -1,0 +1,33 @@
+.footer {
+	width: 100%;
+	z-index: 10; /* Z-index pour s'assurer qu'il est au-dessus des autres éléments */
+	display: flex;
+	align-items: flex-end; /* Aligne le contenu en bas */
+	margin-top: auto; /* Pousse le footer vers le bas */
+}
+
+.grassContainer {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%; /* Prend toute la hauteur du footer */
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.grassImage {
+	width: 100%; /* Prend toute la largeur de la page */
+	height: auto; /* Conserve les proportions de l'image */
+	object-fit: cover; /* Assure que l'image couvre toute la zone */
+}
+
+.copyright {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	font-size: 1rem;
+	text-align: center;
+	z-index: 15; /* Au-dessus de l'image de la colline */
+}

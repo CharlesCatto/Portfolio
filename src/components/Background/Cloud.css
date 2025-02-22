@@ -1,0 +1,28 @@
+.cloud {
+	position: absolute;
+	left: -500px; /* Commence plus loin à gauche */
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	animation: moveCloud linear infinite;
+	opacity: 0; /* Début invisible */
+}
+
+@keyframes moveCloud {
+	0% {
+		left: -500px;
+	}
+	100% {
+		left: 150vw;
+	}
+}
+
+/* Effet de profondeur */
+.cloud[data-size="big"] {
+	filter: blur(2px); /* Flou pour les nuages éloignés */
+	z-index: 1; /* Arrière-plan */
+}
+
+.cloud[data-size="small"] {
+	z-index: 2; /* Avant-plan */
+}

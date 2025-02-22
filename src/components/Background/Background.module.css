@@ -23,7 +23,7 @@
 .cloud {
 	position: absolute;
 	top: 20%;
-	left: -200px; /* Commence hors de l'écran à gauche */
+	left: -200px;
 	width: 300px;
 	height: 150px;
 	background: url("https://image.noelshack.com/fichiers/2024/44/3/1730298110-cloud.jpg")

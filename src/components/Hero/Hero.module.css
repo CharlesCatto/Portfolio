@@ -23,6 +23,32 @@
 	animation: bounce 2s infinite;
 }
 
+/* Conteneur pour Nuage et la flèche */
+.nuageContainer {
+	position: absolute;
+	bottom: 50px; /* Position en bas */
+	right: 20px; /* Position à droite */
+	z-index: 20; /* Assurez-vous qu'il est au-dessus des autres éléments */
+}
+
+/* Style pour Nuage */
+.nuage {
+	width: 150px; /* Ajustez la taille selon vos besoins */
+	height: auto;
+	animation: float 3s ease-in-out infinite; /* Animation de flottement */
+}
+
+/* Style pour la flèche */
+.nuageArrow {
+	width: 50px; /* Ajustez la taille selon vos besoins */
+	height: auto;
+	position: absolute;
+	top: -60px; /* Position au-dessus de Nuage */
+	left: 50%; /* Centrée horizontalement */
+	transform: translateX(-50%);
+	animation: arrowBounce 2s ease-in-out infinite; /* Animation de la flèche */
+}
+
 /* Animations */
 @keyframes fadeIn {
 	from {
@@ -42,5 +68,27 @@
 	}
 	50% {
 		transform: translateY(-10px);
+	}
+}
+
+/* Animation de flottement pour Nuage */
+@keyframes float {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+}
+
+/* Animation de la flèche */
+@keyframes arrowBounce {
+	0%,
+	100% {
+		transform: translate(-50%, 0);
+	}
+	50% {
+		transform: translate(-50%, -10px);
 	}
 }

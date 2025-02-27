@@ -60,10 +60,13 @@ function NavBar() {
 					<div className={styles.navbar__dropdown}>
 						<span className={styles.navbar__link}>Social</span>
 						<div className={styles.navbar__dropdownContent}>
-							<a href="!#">Facebook</a>
-							<a href="!#">Instagram</a>
+							<a href="https://www.linkedin.com/in/charles-catto-72a230330/">
+								Linkedin
+							</a>
+							<a href="https://github.com/CharlesCatto/CharlesCatto/blob/main/README.md">
+								Github
+							</a>
 							<a href="!#">X</a>
-							<a href="!#">Forbes</a>
 						</div>
 					</div>
 				</div>

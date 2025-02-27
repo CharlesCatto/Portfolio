@@ -1,11 +1,10 @@
 .background {
-	position: absolute;
+	position: absolute; /* Les nuages sont positionnés de manière absolue */
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 500%;
+	height: 100%; /* Prend toute la hauteur du conteneur parent */
 	overflow: hidden;
-	z-index: -1;
 	background: linear-gradient(to bottom, #87ceeb, #b0e0e6, #add8e6);
 }
 

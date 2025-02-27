@@ -181,14 +181,14 @@ const generateClouds = () => {
 
 		// Générer une taille et une hauteur uniques
 		do {
-			size = Math.floor(Math.random() * 1200) + 900; // Taille entre 250px et 1000px
+			size = Math.floor(Math.random() * 1500) + 1200; // Taille entre 250px et 1000px
 			top = Math.floor(Math.random() * 80) + 10; // Hauteur entre 10% et 90%
 		} while (usedHeights.has(top)); // Vérifier que la hauteur n'est pas déjà utilisée
 
 		usedHeights.add(top); // Ajouter la hauteur à l'ensemble des hauteurs utilisées
 
 		// Limitation de la vitesse entre 40s et 50s
-		const speed = Math.max(50, Math.min(50, 80 - size / 10));
+		const speed = Math.max(70, Math.min(70, 100 - size / 10));
 
 		// Sélection aléatoire d'une image de nuage
 		const image = cloudImages[Math.floor(Math.random() * cloudImages.length)];

@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"name": "Quiz",
+		"projectExample": "https://github.com/CharlesCatto/quizProject",
+		"description": "Un quiz interactif sur l’univers de Harry Potter, prenant place à bord du Poudlard Express ! Les utilisateurs commencent par choisir les couleurs de leur maison préférée, puis répondent à des questions tout au long du trajet. À chaque bonne réponse, un petit train avance sur un fil d'Ariane, jusqu'à atteindre Poudlard à la fin du quiz. Une expérience immersive et ludique pour les fans du monde des sorciers !"
+	},
+	{
+		"id": 2,
+		"name": "maVille",
+		"projectExample": "https://projectExample.com",
+		"description": ""
+	},
+	{
+		"id": 3,
+		"name": "Travel Up",
+		"projectExample": "https://travel-up.netlify.app/",
+		"description": "Explorez le monde selon vos envies grâce à cette carte interactive ! Répondez à six questions sur vos préférences de voyage (budget, climat, activités, environnement…) et découvrez en temps réel les destinations qui correspondent le mieux à vos critères. Grâce à un système de filtres dynamiques, les pays s’illuminent progressivement sur une carte interactive, offrant une expérience ludique et personnalisée pour trouver votre prochaine aventure."
+	},
+	{
+		"id": 4,
+		"name": "Karotaine",
+		"projectExample": "https://karotaine.vercel.app/",
+		"description": "Un site web satirique et dystopique, conçu en 2 jours, où un mystérieux gouvernement bienveillant impose subtilement… la carotte ! Dans ce monde post-apocalyptique, les citoyens peuvent rechercher des recettes, mais le filtre les oriente inévitablement vers des plats à base de carottes. Avec un formulaire de 'contact' qui sert en réalité à dénoncer les dissidents, ce projet parodie les régimes autoritaires avec une touche d’humour absurde, dans un univers inspiré de Bioshock."
+	},
+	{
+		"id": 5,
+		"name": "Sandra's Market",
+		"projectExample": "https://projectExample.com",
+		"description": "Partez à la découverte de la magie des marchés de Noël à travers le monde ! Laissez-vous émerveiller par les lumières scintillantes, les trésors artisanaux et les délicieux parfums de vin chaud et de pain d’épices. Grâce à notre carte interactive, explorez les plus beaux marchés de Noël et plongez dans les traditions locales. Trouvez des cadeaux uniques, partagez des moments féeriques et laissez l’esprit de Noël vous enchanter !"
+	}
+]

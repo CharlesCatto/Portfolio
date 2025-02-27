@@ -3,30 +3,30 @@
 		"id": 1,
 		"name": "Quiz",
 		"projectExample": "https://github.com/CharlesCatto/quizProject",
-		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet illum quae sed qui, atque quos exercitationem excepturi, molestias laborum assumenda incidunt quam architecto sint corporis veritatis repellendus, inventore aperiam vitae?"
+		"description": "An interactive quiz set in the world of Harry Potter, taking place aboard the Hogwarts Express! Users start by choosing their favorite house colors and then answer questions throughout the journey. With each correct answer, a small train moves forward along a breadcrumb trail until it reaches Hogwarts at the end of the quiz. An immersive and fun experience for wizarding world fans!"
 	},
 	{
 		"id": 2,
-		"name": "maVille",
+		"name": "Ma Ville",
 		"projectExample": "https://projectExample.com",
-		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet illum quae sed qui, atque quos exercitationem excepturi, molestias laborum assumenda incidunt quam architecto sint corporis veritatis repellendus, inventore aperiam vitae?"
+		"description": "Discover Lille through my personal favorites! From cozy bars to scenic strolls and must-try restaurants, this evolving guide highlights the best spots in the city."
 	},
 	{
 		"id": 3,
-		"name": "Project3",
-		"projectExample": "https://projectExample.com",
-		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet illum quae sed qui, atque quos exercitationem excepturi, molestias laborum assumenda incidunt quam architecto sint corporis veritatis repellendus, inventore aperiam vitae?"
+		"name": "Travel Up",
+		"projectExample": "https://travel-up.netlify.app/",
+		"description": "Explore the world based on your preferences with this interactive map! Answer six questions about your travel preferences (budget, climate, activities, environment…) and instantly discover destinations that best match your criteria. Using a dynamic filtering system, countries gradually light up on the interactive map, providing a fun and personalized experience to help you find your next adventure."
 	},
 	{
 		"id": 4,
-		"name": "Project4",
-		"projectExample": "https://projectExample.com",
-		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet illum quae sed qui, atque quos exercitationem excepturi, molestias laborum assumenda incidunt quam architecto sint corporis veritatis repellendus, inventore aperiam vitae?"
+		"name": "Karotaine",
+		"projectExample": "https://karotaine.vercel.app/",
+		"description": "A satirical and dystopian website, designed in just two days, where a mysterious 'benevolent' government subtly imposes... carrots! In this post-apocalyptic world, citizens can search for recipes, but the filter inevitably directs them towards carrot-based dishes. Featuring a 'contact' form that is actually used to report dissenters, this project parodies authoritarian regimes with a touch of absurd humor, inspired by the universe of Bioshock."
 	},
 	{
 		"id": 5,
-		"name": "Project5",
-		"projectExample": "https://projectExample.com",
-		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet illum quae sed qui, atque quos exercitationem excepturi, molestias laborum assumenda incidunt quam architecto sint corporis veritatis repellendus, inventore aperiam vitae?"
+		"name": "Sandra's Market",
+		"projectExample": "https://github.com/CharlesCatto/Sandra-s-Market",
+		"description": "Discover the magic of Christmas markets around the world! Be enchanted by twinkling lights, handcrafted treasures, and the delightful aromas of mulled wine and gingerbread. With our interactive map, explore the most beautiful Christmas markets and immerse yourself in local traditions. Find unique gifts, share magical moments, and let the holiday spirit captivate you!"
 	}
 ]

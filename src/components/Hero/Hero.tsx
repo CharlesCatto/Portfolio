@@ -12,8 +12,13 @@ function Hero() {
 
 			{/* Ajoutez Nuage et la flèche */}
 			<div className={styles.nuageContainer}>
-				<img src={nuage} alt="Nuage" className={styles.nuage} />
-				<img src={nuageArrow} alt="Flèche" className={styles.nuageArrow} />
+				{/* Lien vers la section About */}
+				<div className={styles.nuageScale}>
+					<a href="#about">
+						<img src={nuage} alt="Nuage" className={styles.nuage} />
+					</a>
+					<img src={nuageArrow} alt="Flèche" className={styles.nuageArrow} />
+				</div>
 			</div>
 		</section>
 	);

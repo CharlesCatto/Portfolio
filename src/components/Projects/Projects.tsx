@@ -1,29 +1,34 @@
 import styles from "./Projects.module.css";
 import projectsData from "./projects.json";
 
-// Importez les images
-import quizProject from "../../assets/ProjectsPics/quizProject.png";
-import maVille from "../../assets/ProjectsPics/maVille.png";
-import project3 from "../../assets/ProjectsPics/Project3.png";
-import project4 from "../../assets/ProjectsPics/Project4.png";
-import project5 from "../../assets/ProjectsPics/Project5.png";
+// Importation des images
+import quizProject from "./ProjectsPictures/quizProject.png";
+import maVille from "./ProjectsPictures/maVille.png";
+import travelUp from "./ProjectsPictures/TravelUp.png";
+import karotaine from "./ProjectsPictures/Karotaine.png";
+import sandrasMarket from "./ProjectsPictures/SandrasMarket.png";
 
 // Associez les images aux projets
-const projectImages = {
+const projectImages: { [key: number]: string } = {
 	1: quizProject,
 	2: maVille,
-	3: project3,
-	4: project4,
-	5: project5,
+	3: travelUp,
+	4: karotaine,
+	5: sandrasMarket,
 };
 
-function Projects() {
+interface ProjectsProps {
+	id: string;
+}
+
+function Projects({ id }: ProjectsProps) {
 	return (
-		<section className={styles.projects} id="projects">
+		<section className={styles.projects} id={id}>
 			<h2 className={styles.sectionHeading}>My Projects</h2>
 			{projectsData.map((project, index) => (
 				<div
 					key={project.id}
+					id={`project-${project.id}`} // Ajout de l'ID pour l'ancre
 					className={`${styles.project} ${
 						index % 2 === 0 ? styles.left : styles.right
 					}`}
@@ -34,7 +39,7 @@ function Projects() {
 						rel="noopener noreferrer"
 					>
 						<img
-							src={projectImages[project.id]} // Utilisez l'image importée
+							src={projectImages[project.id]} // Utilisation de l'image importée
 							alt={project.name}
 							className={styles.projectImage}
 						/>

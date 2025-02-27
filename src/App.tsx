@@ -13,8 +13,8 @@ function App() {
 				<div className="componentContainer">
 					<NavBar />
 					<Hero />
-					<About />
-					<Projects />
+					<About id="about" /> {/* Ajout de l'ID "about" */}
+					<Projects id="projects" /> {/* Ajout de l'ID "projects" */}
 				</div>
 				<Footer />
 			</div>

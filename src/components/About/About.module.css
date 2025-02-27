@@ -37,7 +37,8 @@
 .profileDescription {
 	font-size: 1.1rem;
 	line-height: 1.6;
-	color: #555;
+	color: #000000;
+	font-weight: bold;
 }
 
 .skills {

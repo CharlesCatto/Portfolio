@@ -26,7 +26,7 @@ function NavBar() {
 					}`}
 				>
 					{/* Home */}
-					<a href="/" className={styles.navbar__link}>
+					<a href="#home" className={styles.navbar__link}>
 						Home
 					</a>
 
@@ -34,20 +34,26 @@ function NavBar() {
 					<div className={styles.navbar__dropdown}>
 						<span className={styles.navbar__link}>Projects</span>
 						<div className={styles.navbar__dropdownContent}>
-							<a href="!#">FirstType</a>
-							<a href="!#">SecondType</a>
-							<a href="!#">ThirdType</a>
+							<a href="#project-1">Quiz</a>
+							<a href="#project-2">maVille</a>
+							<a href="#project-3">Travel Up</a>
+							<a href="#project-4">Karotaine</a>
+							<a href="#project-5">Sandra's Market</a>
 						</div>
 					</div>
 
 					{/* About Dropdown */}
 					<div className={styles.navbar__dropdown}>
-						<span className={styles.navbar__link}>About</span>
-						<div className={styles.navbar__dropdownContent}>
-							<a href="!#">Hobbies</a>
-							<a href="!#">Passions</a>
-							<a href="!#">Future</a>
-						</div>
+						<a href="#about">
+							<span className={styles.navbar__link}>About</span>
+						</a>
+					</div>
+
+					{/* Skills Dropdown */}
+					<div className={styles.navbar__dropdown}>
+						<a href="#skills">
+							<span className={styles.navbar__link}>Skills</span>
+						</a>
 					</div>
 
 					{/* Social Dropdown */}

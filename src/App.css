@@ -1,3 +1,9 @@
+/* Importation de Montserrat depuis Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+	scroll-behavior: smooth;
+}
 .mainContainer {
 	display: flex;
 	flex-direction: column;
@@ -9,4 +15,31 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.heroTitle {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+}
+
+.highlight {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
 }

@@ -1,6 +1,6 @@
 .cloud {
 	position: absolute;
-	left: -500px; /* Commence plus loin à gauche */
+	left: -100%; /* Commence plus loin à gauche */
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;

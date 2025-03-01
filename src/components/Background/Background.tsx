@@ -99,7 +99,7 @@ const Background: React.FC = () => {
 	return (
 		<div className={styles.background}>
 			{clouds.map((cloud) => (
-				<Cloud key={cloud.id} {...cloud} /> // Utilisation d'une clé unique
+				<Cloud key={`cloud_${cloud.id}`} {...cloud} /> // Utilisation d'une clé unique
 			))}
 		</div>
 	);

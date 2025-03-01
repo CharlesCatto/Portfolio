@@ -17,11 +17,10 @@
 	}
 }
 
-/* Effet de profondeur */
-.cloud[data-size="big"] {
-	filter: blur(2px); /* Flou pour les nuages éloignés */
-	z-index: 1; /* Arrière-plan */
-}
+/* .cloud[data-size="big"] {
+	filter: blur(2px); 
+	z-index: 1; 
+} */
 
 .cloud[data-size="small"] {
 	z-index: 2; /* Avant-plan */

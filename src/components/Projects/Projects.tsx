@@ -3,7 +3,7 @@ import projectsData from "./projects.json";
 
 // Importation des images
 import quizProject from "./ProjectsPictures/quizProject.png";
-import maVille from "./ProjectsPictures/maVille.png";
+import maVille from "./ProjectsPictures/Road-Addict.png";
 import travelUp from "./ProjectsPictures/TravelUp.png";
 import karotaine from "./ProjectsPictures/Karotaine.png";
 import sandrasMarket from "./ProjectsPictures/SandrasMarket.png";

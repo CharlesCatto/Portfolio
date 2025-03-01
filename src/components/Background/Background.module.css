@@ -5,8 +5,8 @@
 	width: 100%;
 	height: 100%; /* Prend toute la hauteur du conteneur parent */
 	overflow: hidden;
-	/* background: linear-gradient(to bottom, #87ceeb, #b0e0e6, #add8e6); */
-	background: linear-gradient(to bottom, #4d8dec, #62cddb, #43bae2);
+	background: linear-gradient(to bottom, #87ceeb, #b0e0e6, #add8e6);
+	/* background: linear-gradient(to bottom, #4d8dec, #62cddb, #43bae2); */
 }
 
 @keyframes moveCloud {

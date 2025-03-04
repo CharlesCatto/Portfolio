@@ -35,7 +35,7 @@ function NavBar() {
 						<span className={styles.navbar__link}>Projects</span>
 						<div className={styles.navbar__dropdownContent}>
 							<a href="#project-1">Quiz</a>
-							<a href="#project-2">maVille</a>
+							<a href="#project-2">Road-Addict</a>
 							<a href="#project-3">Travel Up</a>
 							<a href="#project-4">Karotaine</a>
 							<a href="#project-5">Sandra's Market</a>

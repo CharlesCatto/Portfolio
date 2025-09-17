@@ -1,9 +1,9 @@
 [
 	{
 		"id": 1,
-		"name": "Quiz",
-		"projectExample": "https://github.com/CharlesCatto/quizProject",
-		"description": "An interactive quiz set in the world of Harry Potter, taking place aboard the Hogwarts Express! Users start by choosing their favorite house colors and then answer questions throughout the journey. With each correct answer, a small train moves forward along a breadcrumb trail until it reaches Hogwarts at the end of the quiz. An immersive and fun experience for wizarding world fans!"
+		"name": "Pick Your Costume",
+		"projectExample": "https://pick-your-costume-front.onrender.com",
+		"description": "A full-stack web application for exploring, discovering, and learning about various costumes for different occasions. Features include multi-language support, dynamic themes (Halloween, Christmas, Carnival), smart filtering, and interactive modes (Random and Guess modes). Built with React, TypeScript, Node.js, and MySQL with a responsive design optimized for all devices."
 	},
 	{
 		"id": 2,
@@ -28,5 +28,11 @@
 		"name": "Sandra's Market",
 		"projectExample": "https://github.com/CharlesCatto/Sandra-s-Market",
 		"description": "Discover the magic of Christmas markets around the world! Be enchanted by twinkling lights, handcrafted treasures, and the delightful aromas of mulled wine and gingerbread. With our interactive map, explore the most beautiful Christmas markets and immerse yourself in local traditions. Find unique gifts, share magical moments, and let the holiday spirit captivate you!"
+	},
+	{
+		"id": 6,
+		"name": "Cocktail Finder",
+		"projectExample": "https://cocktail-finder-ajq5.vercel.app/",
+		"description": "Discover personalized cocktails based on your available ingredients! An immersive web application with retro-futuristic 80s-inspired design. Features include cocktail search by name or ingredient, neon interface with light animations, responsive design, secure authentication system (JWT), and user favorites management. Built with React, TypeScript, Node.js, and MySQL."
 	}
 ]

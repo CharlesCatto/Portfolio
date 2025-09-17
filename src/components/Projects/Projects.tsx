@@ -2,19 +2,21 @@ import styles from "./Projects.module.css";
 import projectsData from "./projects.json";
 
 // Importation des images
-import quizProject from "./ProjectsPictures/quizProject.png";
-import maVille from "./ProjectsPictures/Road-Addict.png";
+import pickYourCostume from "./ProjectsPictures/PickYourCostume.png";
+import roadAddict from "./ProjectsPictures/Road-Addict.png";
 import travelUp from "./ProjectsPictures/TravelUp.png";
 import karotaine from "./ProjectsPictures/Karotaine.png";
 import sandrasMarket from "./ProjectsPictures/SandrasMarket.png";
+import cocktailFinder from "./ProjectsPictures/CocktailFinder.png";
 
 // Associez les images aux projets
 const projectImages: { [key: number]: string } = {
-	1: quizProject,
-	2: maVille,
+	1: pickYourCostume,
+	2: roadAddict,
 	3: travelUp,
 	4: karotaine,
 	5: sandrasMarket,
+	6: cocktailFinder,
 };
 
 interface ProjectsProps {
@@ -28,7 +30,7 @@ function Projects({ id }: ProjectsProps) {
 			{projectsData.map((project, index) => (
 				<div
 					key={project.id}
-					id={`project-${project.id}`} // Ajout de l'ID pour l'ancre
+					id={`project-${project.id}`}
 					className={`${styles.project} ${
 						index % 2 === 0 ? styles.left : styles.right
 					}`}
@@ -39,7 +41,7 @@ function Projects({ id }: ProjectsProps) {
 						rel="noopener noreferrer"
 					>
 						<img
-							src={projectImages[project.id]} // Utilisation de l'image importée
+							src={projectImages[project.id]}
 							alt={project.name}
 							className={styles.projectImage}
 						/>

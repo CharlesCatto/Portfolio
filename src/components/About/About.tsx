@@ -2,7 +2,6 @@ import styles from "./About.module.css";
 import mySkills from "../../assets/skills/avatarPics/allSkills.png";
 import avatarIcon from "../../assets/avatarIcon.png";
 
-// Ajoutez une interface pour les props
 interface AboutProps {
 	id: string;
 }
